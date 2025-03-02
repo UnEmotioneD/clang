@@ -28,13 +28,13 @@ If you don’t have a compiler, install one:
 To compile a C file into an executable, use the following command:
 
 ```sh
-gcc -o output_filename source_file.c
+gcc -o output_filename.exe source_file.c
 ```
 
 Example:
 
 ```sh
-gcc -o hello hello_world/hello.c
+gcc -o hello.exe hello_world/hello.c
 ```
 
 This generates an executable named `hello` in the current directory.
@@ -46,13 +46,13 @@ This generates an executable named `hello` in the current directory.
 After compiling, you can run the program with:
 
 ```sh
-./output_filename
+./output_filename.exe
 ```
 
 Example:
 
 ```sh
-./hello
+./hello.exe
 ```
 
 ---
